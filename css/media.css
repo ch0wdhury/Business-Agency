@@ -76,6 +76,52 @@
 		margin: 0 auto;
 	}
 	/* About Sections End */
+	/* Approch Sections Start */
+	.approch_content_wrapper {
+		margin-top: 30px;
+	}
+	.approch_img_wrap {
+		position: relative;
+	}
+	.left {
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		right: 0px;
+		top: 50px;
+	}
+	.left:hover {
+		right: 25px;
+	}
+	.right {
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		left: 0px;
+		top: 70px;
+	}
+	.right:hover {
+		left: 25px;
+	}
+	.overlay_box h1 {
+		font-size: 40px;
+		margin-top: 15px;
+		line-height: .7;
+	}
+	.overlay_box p {
+		font-size: 16px;
+	}
+	.approch_txt_wrap {
+		margin-top: 15px;
+		width: 95%;
+	}
+	.approch_txt_wrap h1 {
+		font-size: 16px;
+	}
+	.approch_txt_wrap p {
+		font-size: 14px;
+	}
+	/* Approch Sections End */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -149,6 +195,26 @@
 		margin: 0 auto;
 	}
 	/* About Sections End */
+	/* Approch Sections Start */
+	.approch_img_wrap {
+		position: relative;
+	}
+	.left:hover {
+		right: -115px;
+	}
+	.right:hover {
+		left: -115px;
+	}
+	.approch_txt_wrap {
+		margin-top: 20px;
+	}
+	.approch_txt_wrap h1 {
+		font-size: 18px;
+	}
+	.approch_txt_wrap p {
+		font-size: 13px;
+	}
+	/* Approch Sections End */
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -212,6 +278,47 @@
 		margin: 0 auto;
 	}
 	/* About Sections End */
+	/* Approch Sections Start */
+	.approch_img_wrap {
+		position: relative;
+	}
+	.left {
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		right: -25px;
+		top: 50px;
+	}
+	.left:hover {
+		right: 0px;
+	}
+	.right {
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		left: -25px;
+		top: 50px;
+	}
+	.right:hover {
+		left: 0px;
+	}
+	.overlay_box h1 {
+		font-size: 40px;
+		margin-top: 15px;
+	}
+	.overlay_box p {
+		font-size: 18px;
+	}
+	.approch_txt_wrap {
+		margin-top: 35px;
+	}
+	.approch_txt_wrap h1 {
+		font-size: 16px;
+	}
+	.approch_txt_wrap p {
+		font-size: 14px;
+	}
+	/* Approch Sections End */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -258,6 +365,30 @@
 		margin: 0 auto;
 	}
 	/* About Sections End */
+	/* Approch Sections Start */
+	.approch_img_wrap {
+		position: relative;
+	}
+	.left {
+		position: absolute;
+		right: -45px;
+		top: 50px;
+	}
+	.left:hover {
+		right: -100px;
+	}
+	.right {
+		position: absolute;
+		left: -45px;
+		top: 50px;
+	}
+	.right:hover {
+		left: -100px;
+	}
+	.approch_txt_wrap {
+		margin-top: 45px;
+	}
+	/* Approch Sections End */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
