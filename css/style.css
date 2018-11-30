@@ -1,0 +1,181 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+/* Font File Integration */
+@font-face {
+    font-family: HelveticaNeueLight;
+    src: url(../fonts/HelveticaNeueLight.ttf);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/Helvetica.ttf);
+}
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(../fonts/HelveticaNeueBold.ttf);
+}
+@font-face {
+    font-family: MyriadProRegular;
+    src: url(../fonts/MyriadProRegular.otf);
+}
+/* Font File Integration */
+
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../images/bg.png);
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Sections Start */
+header {
+	background-color: #F0F2F4;
+}
+.top_title ul {
+	margin: 0;
+}
+.top_title li {
+	margin: 5px auto;
+	text-align: right;
+}
+.top_title li p {
+	font-family: Helvetica;
+	font-size: 15px;
+	line-height: .5;
+	margin: 0 auto;
+}
+.top_title li i {
+	font-size: 16px;
+	text-align: right;
+}
+.top_title li:nth-of-type(3) i {
+	margin-left: 20px;
+}
+.top_title li:nth-of-type(5) i {
+	color: #1287BF;
+	font-size: 20px;
+	margin: 0;
+	cursor: pointer;
+}
+.r_border {
+	padding-right: 20px;
+	border-right: 1px solid gray;
+}
+/* Header Sections End */
+/* Menu Sections Start */
+.menu {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.custom_nav li a {
+	font-family: HelveticaNeueBold;
+	font-size: 15px;
+	margin-top: 8px;
+	color: #000!important;
+	padding: 0px 15px!important;
+	text-align: right;
+	transition: .5s ease;
+}
+.custom_nav li i {
+	font-size: 6px;
+	color: #000!important;
+	margin-top: 17px;
+	text-align: right;
+}
+.custom_nav .active a {
+	color: #DC3545!important;
+}
+.custom_nav li a:hover {
+	color: #DC3545!important;
+}
+.custom_nav button {
+	font-family: HelveticaNeueBold;
+	font-size: 15px;
+	padding: 6px 20px;
+	margin-left: 15px;
+}
+/* Menu Sections End */
+/* Banner Sections Start */
+.banner {
+	background-image: url(../images/banner_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner_content {
+	margin-top: 170px;
+	margin-bottom: 230px;
+}
+.banner_content h1 {
+	font-family: HelveticaNeueBold;
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.banner_content p {
+	font-family: HelveticaNeueLight;
+	font-size: 30px;
+	color: #fff;
+}
+.banner_content button {
+	font-family: HelveticaNeueBold;
+	font-size: 23px;
+	color: #fff;
+	padding: 0.7rem 2rem;
+	margin-top: 30px;
+}
+.banner_content button:hover {
+	color: #fff;
+}
+/* Banner Sections End */
+/* About Sections Start */
+.common_title {
+	margin-top: 100px;
+}
+.common_title h1 {
+	font-family: HelveticaNeueBold;
+	font-size: 35px;
+}
+.common_title p {
+	font-family: HelveticaNeueLight;
+	font-size: 20px;
+}
+.common_title hr {
+	width: 50px;
+	border: 3px solid #000;
+	margin: 0 auto;
+}
+.about_content {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.about_content h1 {
+	font-family: HelveticaNeueBold;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.about_content p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width: 75%;
+	margin: 0 auto;
+}
+/* About Sections End */
+/* Approch Sections Start */
+
+/* Approch Sections End */
+/* Work Sections Start */
+
+/* Work Sections End */
+/* Facebook Analysis Sections Start */
+
+/* Facebook Analysis Sections End */
+/* Get in touch Sections Start */
+
+/* Get in touch Sections End */
+/* Footer Sections Start */
+
+/* Footer Sections End */
