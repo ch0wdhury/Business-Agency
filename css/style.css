@@ -282,6 +282,8 @@ header {
 .dissmiss_btn {
 	position: absolute;
 	right: 0;
+	outline: none;
+	border: none;
 }
 .form_container p {
 	margin-top: 80px;
