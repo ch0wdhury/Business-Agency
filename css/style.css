@@ -267,11 +267,130 @@ header {
 }
 /* Work Sections End */
 /* Facebook Analysis Sections Start */
-
+.analysis {
+	background-color: #1287BF;
+}
+.collapsible_btn {
+	margin-bottom: 100px;
+}
+.form_container {
+	background-image: url(../images/form_shape.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+}
+.dissmiss_btn {
+	position: absolute;
+	right: 0;
+}
+.form_container p {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 15px;
+	color: #828282;
+}
+.form_container form input {
+	font-family: Helvetica;
+	font-size: 14px;
+	height: calc(2.875rem + 2px);
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.form_container form button {
+	font-family: HelveticaNeueBold;
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 60px;
+	padding: .7rem 1.6rem!important;
+}
 /* Facebook Analysis Sections End */
 /* Get in touch Sections Start */
-
+.subscribe {
+	background-color: #2A2A2A;
+}
+.social_icons {
+	margin-top: 40px;
+}
+.social_icons li {
+	margin: 0 10px;
+}
+.social_icons a {
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size: 23px;
+	border: 2px solid #515151;
+	border-radius: 3px;
+	transition: .5s ease;
+}
+.social_icons li:first-child a {
+	padding: 10px 20px;
+}
+.social_icons a:hover {
+	border-color: #DC3545;
+}
+.social_icons a i{
+	color: #fff;
+}
+.newsletter_content {
+	margin-bottom: 80px;
+}
+.newsletter_content p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #CECECE;
+	margin: 30px auto;
+}
+.newsletter_form input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	height: calc(3.2rem + 2px);
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    outline: none;
+    border: none;
+    background-color: #515151;
+    margin-bottom: 25px;
+}
+.newsletter_form input::-webkit-input-placeholder {
+  color: #CECECE;
+}
+.newsletter_form input::-moz-placeholder {
+  color: #CECECE;
+}
+.newsletter_form input:-ms-input-placeholder {
+  color: #CECECE;
+}
+.newsletter_form input:-moz-placeholder {
+  color: #CECECE;
+}
+.newsletter_form button {
+	background: transparent;
+	font-family: HelveticaNeueBold;
+	font-size: 17px;
+	color: #fff;
+	padding: 15px 30px;
+	border: 2px solid #515151;
+	border-radius: 3px;
+	transition: .5s ease;
+}
+.newsletter_form button:hover {
+	border-color: #DC3545;
+}
 /* Get in touch Sections End */
 /* Footer Sections Start */
-
+footer {
+	background-color: #515151;
+	padding: 20px 0;
+}
+.footer_text p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #CECECE;
+}
 /* Footer Sections End */

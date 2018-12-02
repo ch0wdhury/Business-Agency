@@ -7,6 +7,9 @@
 	.r_border {
 		padding-right: 0px;
 	}
+	.top_title ul {
+		float: right;
+	}
 	/* Header Sections End */
 	/* Menu Sections Start */
 	.menu {
@@ -83,6 +86,9 @@
 	.approch_img_wrap {
 		position: relative;
 	}
+	.approch_txt_wrap {
+		padding-left: 10px;
+	}
 	.left {
 		width: 80px;
 		height: 80px;
@@ -142,6 +148,61 @@
 		font-size: 15px;
 	}
 	/* Work Sections End */
+	/* Facebook Analysis Sections Start */
+	.collapsible_btn {
+		margin-bottom: 40px;
+	}
+	.form_container {
+		position: relative;
+	}
+	.dissmiss_btn {
+		position: absolute;
+		right: -25px;
+	}
+	.form_container p {
+		width: 95%;
+		margin-top: 60px;
+		font-size: 14px;
+	}
+	.form_container form input {
+    	width: 95%;
+    	margin: 0 auto;
+    	margin-bottom: 10px;
+	}
+	.form_container form button {
+		margin-bottom: 40px;
+	}
+	/* Facebook Analysis Sections End */
+	/* Get in touch Sections Start */
+	.social_icons {
+		margin-top: 30px;
+	}
+	.social_icons li {
+		margin: 0;
+	}
+	.social_icons a {
+		font-size: 20px;
+	}
+	.newsletter_content {
+		margin-bottom: 40px;
+	}
+	.newsletter_content p {
+		margin: 20px auto;
+	}
+	.newsletter_form input {
+		height: calc(3rem + 2px);
+	    padding: .5rem .6rem;
+	}
+	/* Get in touch Sections End */
+	/* Footer Sections Start */
+	footer {
+		background-color: #515151;
+		padding: 10px 0;
+	}
+	.footer_text p {
+		font-size: 12px;
+	}
+	/* Footer Sections End */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -252,6 +313,57 @@
 		font-size: 15px;
 	}
 	/* Work Sections End */
+	/* Facebook Analysis Sections Start */
+	.collapsible_btn {
+		margin-bottom: 50px;
+	}
+	.form_container {
+		position: relative;
+	}
+	.dissmiss_btn {
+		position: absolute;
+		right: -35px;
+	}
+	.form_container p {
+		margin-top: 60px;
+		font-size: 14px;
+	}
+	.form_container form input {
+    	width: 90%;
+	}
+	.form_container form button {
+		margin-bottom: 40px;
+	}
+	/* Facebook Analysis Sections End */
+	/* Get in touch Sections Start */
+	.social_icons {
+		margin-top: 30px;
+	}
+	.social_icons li {
+		margin: 0;
+	}
+	.social_icons a {
+		font-size: 20px;
+	}
+	.newsletter_content {
+		margin-bottom: 50px;
+	}
+	.newsletter_content p {
+		margin: 25px auto;
+	}
+	.newsletter_form input {
+		height: calc(3.2rem + 2px);
+	    padding: .5rem 1rem;
+	}
+	/* Get in touch Sections End */
+	/* Footer Sections Start */
+	footer {
+		padding: 15px 0;
+	}
+	.footer_text p {
+		font-size: 14px;
+	}
+	/* Footer Sections End */
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -373,6 +485,24 @@
 		font-size: 16px;
 	}
 	/* Work Sections End */
+	/* Facebook Analysis Sections Start */
+	.collapsible_btn {
+		margin-bottom: 80px;
+	}
+	.form_container {
+		position: relative;
+	}
+	.dissmiss_btn {
+		position: absolute;
+		right: -35px;
+	}
+	.form_container p {
+		font-size: 14px;
+	}
+	.form_container form button {
+		margin-bottom: 40px;
+	}
+	/* Facebook Analysis Sections End */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -460,6 +590,24 @@
 		font-size: 15px;
 	}
 	/* Work Sections End */
+	/* Facebook Analysis Sections Start */
+	.collapsible_btn {
+		margin-bottom: 80px;
+	}
+	.form_container {
+		position: relative;
+	}
+	.dissmiss_btn {
+		position: absolute;
+		right: -30px;
+	}
+	.form_container p {
+		font-size: 14px;
+	}
+	.form_container form button {
+		margin-bottom: 50px;
+	}
+	/* Facebook Analysis Sections End */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
